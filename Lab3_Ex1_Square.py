@@ -16,6 +16,8 @@ class odd_sqaure_calculator:
         self.elements = elements
 
 # Search for the odd elements in the list/s and square them
-   
+    def square_odd_numbers(self):
+        return [x**2 for x in self.elements if x % 2 != 0]
+
 # Display the result
 
