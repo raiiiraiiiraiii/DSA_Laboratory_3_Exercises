@@ -22,5 +22,9 @@ class list_of_tuple_generator:
 # Generate tuples
     def generate_tuples_from_lists(self):
         return[(numbers, names) for numbers, names in zip(self.numbers, self.names)]
+    
 # Lists
+numbers = [1, 2, 3]
+names = ["Railey", "Cericos", "Guinto"]
+
 # Generate and print the list of tuples
