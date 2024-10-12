@@ -11,5 +11,11 @@ sample calls
 '''
 
 # Create class
+class odd_sqaure_calculator:
+    def __init__(self, elements) -> None:
+        self.elements = elements
+
 # Search for the odd elements in the list/s and square them
+   
 # Display the result
+
