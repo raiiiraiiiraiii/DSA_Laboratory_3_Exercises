@@ -28,3 +28,6 @@ numbers = [1, 2, 3]
 names = ["Railey", "Cericos", "Guinto"]
 
 # Generate and print the list of tuples
+generator = list_of_tuple_generator(numbers, names)
+
+print(generator.generate_tuples_from_lists())
