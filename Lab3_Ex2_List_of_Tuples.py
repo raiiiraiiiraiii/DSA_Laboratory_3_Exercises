@@ -20,5 +20,7 @@ class list_of_tuple_generator:
         self.names = names
 
 # Generate tuples
+    def generate_tuples_from_lists(self):
+        return[(numbers, names) for numbers, names in zip(self.numbers, self.names)]
 # Lists
 # Generate and print the list of tuples
