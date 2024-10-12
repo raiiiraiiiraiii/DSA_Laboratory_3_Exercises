@@ -20,4 +20,6 @@ class odd_sqaure_calculator:
         return [x**2 for x in self.elements if x % 2 != 0]
 
 # Display the result
+list_1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+print(odd_sqaure_calculator(list_1).square_odd_numbers())
