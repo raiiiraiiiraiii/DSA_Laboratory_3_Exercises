@@ -27,5 +27,11 @@ class vowel_converter:
 # Convert vowels to uppercase
     def vowels_to_upper(self, input_string):
         return ''.join([char.upper() if char in 'aeiou' else char for char in input_string])
+    
+convert_vowels = vowel_converter()
+
 # Input strings
+phrase1 = "Railey Guinto"
+phrase2 = "Antipolo City"
+
 # Print results
